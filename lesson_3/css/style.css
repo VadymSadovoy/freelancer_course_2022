@@ -1,0 +1,58 @@
+
+/* #top {
+	color: aqua;
+} */
+
+/* div {
+	color: brown;
+} */
+
+a {
+	color: green;
+}
+
+/* .text ~ p {
+	color: red;
+} */
+
+/* .text > p {
+	color: red;
+} */
+
+.text p {
+	color: brown;
+}
+
+/* .news p {
+	color: red;
+} */
+
+/* ul {
+	color: goldenrod;
+} */
+
+/* .text + p {
+	color: aqua;
+} */
+
+.news {
+	color: #18b5a4;
+}
+
+.text {
+	color: blue;
+}
+
+/* .news * {
+	color: red;
+} */
+
+/* .news, 
+.text {
+	color: blue;
+} */
+
+/* * {
+	color: red;
+} */
+
