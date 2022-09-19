@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+
+@font-face {
+	font-family: "RUSBoycott";
+	src: url("../fonts/RUSBoycott.woff2") format("woff2"),
+		url("../fonts/RUSBoycott.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SansusWebissimo";
+	src: url("../fonts/SansusWebissimo.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SansusWebissimo";
+	src: url("../fonts/SansusWebissimo-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	width: 1200px;
+	margin: 0px 40px;
+}
+
+h1 {
+	font-family: RUSBoycott, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(137, 255, 137);
+	letter-spacing: 5px;
+	word-spacing: 7px;
+	line-height: 1.5;
+	margin: 40px;
+}
+
+h2 {
+	font-family: SansusWebissimo;
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+	margin: 20px 0px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 900;
+	text-align: center;
+	margin: 20px 0px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+span {
+	font-weight: 600;
+	text-shadow: 1px 1px 1px rgb(197, 197, 255);
+}
+
+ul {
+	padding: 10px 70px;
+	font-style: italic;
+}
+
+.lake img {
+	margin-top: 10px;
+}
+
+a.link {
+	font-size: 25px;
+	font-weight: 900;
+	padding: 50px 500px;
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.lake p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.lake + p {
+	text-align: left;
+}
+
+.text {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.text a {
+	text-decoration: line-through;
+}
+
+.canyon a {
+	text-decoration: underline;
+}
+
+.footer p {
+	font-family: SansusWebissimo;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	word-spacing: 7px;
+	color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	text-shadow: 1px 1px 10px rgba(128, 128, 128, 0.2),
+		-1px -1px 10px rgba(99, 109, 255, 0.7);
+	margin: 40px 0px 20px;
+}
+
+.footer ol {
+	margin-left: 100px;
+}
+
+.footer a {
+	text-decoration: underline;
+}
+
+.footer {
+	margin-bottom: 70px;
+}
