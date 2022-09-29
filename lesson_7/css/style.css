@@ -1,0 +1,175 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/AnyConv.com__Lato-Regular.woff2") format("woff2"),
+		url("../fonts/AnyConv.com__Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/AnyConv.com__Lato-Bold.woff2") format("woff2"),
+		url("../fonts/AnyConv.com__Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/AnyConv.com__Lato-Black.woff2") format("woff2"),
+		url("../fonts/AnyConv.com__Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424551;
+}
+
+[class*="__block"] {
+	max-width: 810px;
+	margin: 0px auto;
+}
+
+.article__block {
+	font-size: 46px;
+	line-height: 130%;
+	font-weight: 900;
+	margin-bottom: 40px;
+	padding-top: 40px;
+}
+
+img {
+	width: 100%;
+}
+
+.container-image__block {
+	margin-bottom: 60px;
+}
+
+.text__block p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+
+div.item-1 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+.item-1 + p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+
+.text-inside p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	padding-left: 58px;
+	margin-bottom: 48px;
+	background: url("../img/braces.png") 0px 5px no-repeat;
+}
+
+.text-inside + p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+
+ul li {
+	font-size: 16px;
+	line-height: 1.6;
+	padding-left: 32px;
+	margin-bottom: 10px;
+	background: url("../img/vector.png") 0 5px no-repeat;
+}
+
+.item-2 {
+	margin-bottom: 24px;
+}
+
+.footer-text__block p {
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.tags {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.6;
+	padding-right: 270px;
+}
+
+.share {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.6;
+}
+
+.learning img {
+	height: 32px;
+	width: 92px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+
+.hr img {
+	height: 32px;
+	width: 60px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+
+.self-development img {
+	height: 32px;
+	width: 150px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+
+.fb img {
+	height: 18.33px;
+	width: 9.65px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+.twitter img {
+	height: 20px;
+	width: 20px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+.linked-in img {
+	height: 20px;
+	width: 20px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+.footer-text__block {
+	margin-bottom: 60px;
+}
