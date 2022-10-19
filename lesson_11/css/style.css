@@ -1,0 +1,342 @@
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #424551;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+[class*="container"] {
+	max-width: 1230px;
+	margin: 0px auto;
+}
+
+.pictures {
+	position: relative;
+}
+
+.sea__picture {
+}
+
+.sea__picture {
+	max-height: 620px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.seabottom img {
+	position: absolute;
+}
+
+.seabottom__coral1 {
+	width: 150px;
+	height: 150px;
+	right: -10px;
+	bottom: -10px;
+	z-index: 1;
+}
+
+.seabottom__coral3 {
+	width: 150px;
+	height: 150px;
+	right: 200px;
+	bottom: -10px;
+	z-index: 3;
+}
+
+.seabottom__coral4 {
+	width: 150px;
+	height: 150px;
+	left: 500px;
+	bottom: 0px;
+}
+
+.seabottom__coral5 {
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.seabottom__coral6 {
+	width: 150px;
+	height: 150px;
+	left: 300px;
+	bottom: 50px;
+}
+
+.seabottom__crayfish1 {
+	width: 100px;
+	height: 100px;
+	right: 350px;
+	bottom: 0px;
+}
+
+.seabottom:hover .seabottom__crayfish1 {
+	right: 1000px;
+	transition: all 10s ease 0s;
+	z-index: 2;
+}
+
+.seabottom__crayfish3 {
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	top: 400px;
+}
+
+.seabottom:hover .seabottom__crayfish3 {
+	left: 300px;
+	top: 320px;
+	transition: all 6s cubic-bezier(0, 1.21, 1, 1.59);
+	z-index: 2;
+}
+
+.seabottom__box1 {
+	width: 150px;
+	height: 150px;
+	left: 180px;
+	bottom: 100px;
+}
+
+.seabottom__box2 {
+	width: 150px;
+	height: 150px;
+	right: 450px;
+	bottom: -20px;
+	z-index: 1;
+}
+
+.seabottom__jellyfish1 {
+	width: 150px;
+	height: 150px;
+	left: 430px;
+	bottom: 80px;
+	z-index: 1;
+}
+
+.seabottom:hover .seabottom__jellyfish1 {
+	left: 530px;
+	bottom: 80px;
+	transform: rotate(360deg);
+	transition: all 5s ease 0s;
+	z-index: 2;
+}
+
+.seabottom__jellyfish2 {
+	width: 150px;
+	height: 150px;
+	right: 80px;
+	bottom: 70px;
+	z-index: 2;
+}
+
+.seabottom:hover .seabottom__jellyfish2 {
+	right: 80px;
+	bottom: 120px;
+	transition: all 6s cubic-bezier(0, 1.67, 0.97, 2);
+	z-index: 2;
+}
+
+.seabottom__shark1 {
+	width: 300px;
+	height: 200px;
+	left: 550px;
+	bottom: 200px;
+	z-index: 1;
+}
+
+.seabottom__shell2 {
+	width: 100px;
+	height: 100px;
+	left: 200px;
+	bottom: 0px;
+}
+.seabottom__shell3 {
+	width: 80px;
+	height: 80px;
+	left: 620px;
+	bottom: 90px;	
+}
+
+.seabottom__seagulls {
+	width: 80px;
+	height: 80px;
+	left: 20px;
+	top: 0px;
+}
+
+.seabottom:hover .seabottom__seagulls {
+	left: 1100px;
+	top: 0px;
+	transition: all 15s ease 0s;
+}
+
+.seabottom__fish {
+	width: 80px;
+	height: 80px;
+	right: 120px;
+	top: 280px;
+}
+
+.seabottom:hover .seabottom__fish {
+	width: 80px;
+	height: 80px;
+	right: 1100px;
+	top: 280px;
+	transition: all 15s ease 0s;
+}
+
+.seabottom__seaweed2 {
+	width: 150px;
+	height: 150px;
+	right: -10px;
+	bottom: 70px;
+}
+
+.seabottom__anchor1 {
+	width: 100px;
+	height: 100px;
+	left: 400px;
+	bottom: -10px;
+}
+
+/* .seabottom__bubbles1 {
+	width: 150px;
+	height: 250px;
+	left: 50px;
+	bottom: 0px;
+} */
+
+/* .seabottom:hover .seabottom__bubbles1 {
+	width: 150px;
+	height: 250px;
+	left: 50px;
+	bottom: 250px;
+	transition: all 10s ease 0s;
+	transform: scale(1.3);
+} */
+
+.seabottom::before {
+	content: "";
+	background: url("../img/bubbles1.png") left/120px no-repeat;
+	position: absolute;
+	width: 150px;
+	height: 250px;
+	left: 50px;
+	bottom: 0px;
+	transition: all 10s ease 0s;
+}
+
+.seabottom:hover::before {
+	bottom: 250px;
+	transform: scale(1.3);
+}
+
+.ships img {
+	position: absolute;
+}
+.ships__pirats {
+}
+.ships__pirats--pirat-1 {
+}
+.pirat-1 {
+}
+.pirat-1__ship1 {
+	width: 300px;
+	height: 300px;
+	left: 100px;
+	top: -20px;
+}
+
+.pirat-1:hover .pirat-1__ship1 {
+	width: 300px;
+	height: 300px;
+	left: 300px;
+	top: -20px;
+	transition: all 10s ease 0s;
+}
+
+.pirat-1__pirat1 {
+	width: 90px;
+	height: 90px;
+	left: 140px;
+	top: 100px;
+}
+
+.pirat-1:hover .pirat-1__pirat1 {
+	width: 90px;
+	height: 90px;
+	left: 350px;
+	top: 100px;
+	transition: all 10s ease 0s;
+}
+
+.pirat-1__pirat4 {
+	width: 110px;
+	height: 110px;
+	left: 260px;
+	top: 60px;
+}
+
+.pirat-1:hover .pirat-1__pirat4 {
+	width: 110px;
+	height: 110px;
+	left: 450px;
+	top: 60px;
+	transition: all 10s ease 0s;
+}
+
+.ships__pirats--pirat-2 {
+}
+
+.pirat-2__ship2 {
+	width: 300px;
+	height: 300px;
+	right: 100px;
+	top: -20px;
+}
+
+.pirat-2:hover .pirat-2__ship2 {
+	width: 300px;
+	height: 300px;
+	right: 360px;
+	top: -20px;
+	transition: all 10s ease 0s;
+}
+
+.pirat-2__pirat2 {
+	width: 90px;
+	height: 90px;
+	right: 120px;
+	top: 100px;
+}
+
+.pirat-2:hover .pirat-2__pirat2 {
+	width: 90px;
+	height: 90px;
+	right: 360px;
+	top: 100px;
+	transition: all 10s ease 0s;
+}
+
+.pirat-2__pirat3 {
+	width: 80px;
+	height: 110px;
+	right: 260px;
+	top: 100px;
+}
+
+.pirat-2:hover .pirat-2__pirat3 {
+	width: 80px;
+	height: 110px;
+	right: 540px;
+	top: 100px;
+	transition: all 10s ease 0s;
+}
