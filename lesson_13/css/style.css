@@ -1,0 +1,425 @@
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #424551;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+[class*="container"] {
+	max-width: 1230px;
+	margin: 0px auto;
+}
+
+.pictures {
+	position: relative;
+}
+
+.sea__picture {
+	max-height: 620px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.seabottom img {
+	position: absolute;
+}
+
+.seabottom__coral1 {
+	width: 150px;
+	height: 150px;
+	right: -10px;
+	bottom: -10px;
+	z-index: 1;
+}
+
+.seabottom__coral3 {
+	width: 150px;
+	height: 150px;
+	right: 200px;
+	bottom: -10px;
+	z-index: 3;
+}
+
+.seabottom__coral4 {
+	width: 150px;
+	height: 150px;
+	left: 500px;
+	bottom: 0px;
+}
+
+.seabottom__coral5 {
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.seabottom__coral6 {
+	width: 150px;
+	height: 150px;
+	left: 300px;
+	bottom: 50px;
+}
+
+.crayfish1 {
+	width: 100px;
+	height: 100px;
+	left: 50px;
+	top: 500px;
+	animation-name: crayfish1;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	z-index: 4;
+}
+
+@keyframes crayfish1 {
+	0% {
+		left: 50px;
+		top: 500px;
+	}
+	100% {
+		left: 1100px;
+		top: 500px;
+	}
+}
+
+.seabottom__crayfish3 {
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	top: 400px;
+}
+
+.seabottom:hover .seabottom__crayfish3 {
+	left: 300px;
+	top: 320px;
+	transition: all 6s cubic-bezier(0, 1.21, 1, 1.59);
+	z-index: 2;
+}
+
+.seabottom__box1 {
+	width: 150px;
+	height: 150px;
+	left: 180px;
+	bottom: 100px;
+}
+
+.seabottom__box2 {
+	width: 150px;
+	height: 150px;
+	right: 450px;
+	bottom: -20px;
+	z-index: 1;
+}
+
+.jellyfish1 {
+	width: 150px;
+	height: 150px;
+	left: 430px;
+	bottom: 80px;
+	z-index: 1;
+}
+
+.seabottom:hover .jellyfish1 {
+	left: 530px;
+	bottom: 80px;
+	transform: rotate(360deg);
+	transition: all 5s ease 0s;
+	z-index: 2;
+}
+
+.jellyfish2 {
+	width: 150px;
+	height: 150px;
+	right: 80px;
+	top: 410px;
+	animation-name: jellyfish2;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	z-index: 2;
+}
+
+@keyframes jellyfish2 {
+	0% {
+		right: 80px;
+		top: 410px;
+	}
+	100% {
+		right: 80px;
+		top: 310px;
+	}
+}
+
+.shark1 {
+	width: 300px;
+	height: 200px;
+	left: 550px;
+	top: 200px;
+	animation-name: shark1;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	z-index: 1;
+}
+
+@keyframes shark1 {
+	0% {
+		left: 550px;
+		top: 200px;
+	}
+	100% {
+		left: 550px;
+		top: 200px;
+		transform: rotateY(180deg);
+	}
+}
+
+.seabottom__shell2 {
+	width: 100px;
+	height: 100px;
+	left: 200px;
+	bottom: 0px;
+}
+.seabottom__shell3 {
+	width: 80px;
+	height: 80px;
+	left: 620px;
+	bottom: 90px;	
+}
+
+.seagulls1 {
+	width: 80px;
+	height: 80px;
+	left: 20px;
+	top: 0px;
+	animation-name: seagulls1;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes seagulls1 {
+	0% {
+		left: 20px;
+		top: 0px
+	}
+	100% {
+		left: 1080px;
+		top: 0px
+	}
+}
+
+.fish1 {
+	width: 80px;
+	height: 80px;
+	right: 50px;
+	top: 280px;
+	animation-name: fish1;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
+
+@keyframes fish1 {
+	0% {
+		right: 50px;
+		top: 280px;
+	}
+	100% {
+		right: 1130px;
+		top: 280px;
+	}
+}
+
+.seabottom__seaweed2 {
+	width: 150px;
+	height: 150px;
+	right: -10px;
+	bottom: 70px;
+}
+
+.seabottom__anchor1 {
+	width: 100px;
+	height: 100px;
+	left: 400px;
+	bottom: -10px;
+}
+
+.bubbles1 {
+	width: 150px;
+	height: 250px;
+	left: 50px;
+	top: 360px;
+	animation-name: bubbles1;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@keyframes bubbles1 {
+	0% {
+		left: 50px;
+		top: 360px;
+	}
+	100% {
+		left: 50px;
+		top: 150px;
+		transform: scale(1.1);
+	}
+}
+
+.ships img {
+	position: absolute;
+}
+
+.pirat-1__ship1 {
+	width: 300px;
+	height: 300px;
+	left: 100px;
+	top: -20px;
+	animation-name: ship1;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ship1 {
+	0% {
+		left: 100px;
+		top: -20px;
+	}
+	100% {
+		left: 360px;
+		top: -20px;
+	}
+}
+
+.pirat-1__pirat1 {
+	width: 90px;
+	height: 90px;
+	left: 140px;
+	top: 100px;
+	animation-name: pirat1;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes pirat1 {
+	0% {
+		left: 140px;
+		top: 100px;
+	}
+	100% {
+		left: 380px;
+		top: 100px;
+	}
+}
+
+.pirat-1__pirat4 {
+	width: 110px;
+	height: 110px;
+	left: 260px;
+	top: 60px;
+	animation-name: pirat4;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes pirat4 {
+	0% {
+		left: 260px;
+		top: 60px;
+	}
+	100% {
+		left: 530px;
+		top: 60px;
+	}
+}
+
+.pirat-2__ship2 {
+	width: 300px;
+	height: 300px;
+	right: 100px;
+	top: -25px;
+	animation-name: ship2;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes ship2 {
+	0% {
+		right: 100px;
+		top: -25px;
+	}
+	100% {
+		right: 360px;
+		top: -25px;
+	}
+}
+
+.pirat-2__pirat2 {
+	width: 90px;
+	height: 90px;
+	right: 120px;
+	top: 95px;
+	animation-name: pirat2;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes pirat2 {
+	0% {
+		right: 120px;
+		top: 95px;
+	}
+	100% {
+		right: 380px;
+		top: 95px;
+	}
+}
+
+.pirat-2__pirat3 {
+	width: 80px;
+	height: 110px;
+	right: 260px;
+	top: 95px;
+	animation-name: pirat3;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes pirat3 {
+	0% {
+		right: 260px;
+		top: 95px;
+	}
+	100% {
+		right: 530px;
+		top: 95px;
+	}
+}
